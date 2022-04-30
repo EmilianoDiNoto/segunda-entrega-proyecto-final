@@ -48,14 +48,9 @@ nav a{
     text-decoration: none;
     color: rgb(253, 229, 229);
 }
-nav a:hover{
-    color:orangered;
+.navbar-light .navbar-nav .nav-link:hover{
+    color: black !important;
 }
-
-footer a:hover{
-    color: orangered;
-}
-
 .animacion{
 color: darkblue; 
 animation-name: gorra;
@@ -117,8 +112,8 @@ button{
     justify-self: center;
     align-self: center;
     width: 100%;
+    background-color: azure;
 }
-
 img{
     max-width: 100%;
     width: 100%;
